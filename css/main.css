@@ -1,0 +1,1032 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#header {
+  width: 100%;
+  padding: 12px 100px;
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px); }
+  #header img {
+    height: 48px;
+    margin: auto 0; }
+  #header .mobile-menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+    cursor: pointer; }
+    #header .mobile-menu-button i {
+      font-size: 38px;
+      color: #386d3d; }
+  #header .mobile-navigation {
+    padding: 24px 32px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: fit-content;
+    background-color: #f8f8e8;
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.3s ease, transform 0.3s ease; }
+    #header .mobile-navigation i {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      font-size: 38px;
+      color: #386d3d; }
+    #header .mobile-navigation ul {
+      margin-top: 24px;
+      white-space: nowrap; }
+    #header .mobile-navigation li {
+      list-style: none; }
+    #header .mobile-navigation a {
+      display: inline-block;
+      text-decoration: none;
+      color: #386d3d;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 12px 24px; }
+
+.hero-section .booking-button,
+.header-button, .phone-button,
+.desktop-button {
+  color: white;
+  display: inline-block;
+  height: 64px;
+  padding: 4px 22px;
+  border-radius: 8px;
+  text-align: center;
+  align-self: flex-start;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold; }
+
+.phone-button {
+  float: right;
+  margin-right: 10px;
+  background: linear-gradient(to bottom, #89bb4a 0%, #a9c56d 100%);
+  border: 2px solid #89bb4a; }
+
+.hero-section .booking-button,
+.desktop-button {
+  background: linear-gradient(to bottom, #de9300 0%, #e3a740 100%);
+  border: 3px solid #de9300; }
+
+.desktop-button {
+  float: right; }
+
+.header-button p:first-child {
+  font-size: 14px;
+  font-weight: bold; }
+.header-button i {
+  font-size: 16px;
+  margin: 4px; }
+.header-button p:nth-child(2) {
+  font-size: 18px; }
+
+.phone-button p:nth-child(2) {
+  font-size: 22px; }
+
+#content .hero-section {
+  width: 100%;
+  background-image: url("../img/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  #content .hero-section .hero-content {
+    padding-top: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    #content .hero-section .hero-content .hero-card {
+      width: 50%;
+      display: flex;
+      flex-direction: column; }
+    #content .hero-section .hero-content .hero-details {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+    #content .hero-section .hero-content .hero-text {
+      font-size: 42px;
+      color: #555555;
+      font-family: "Noto Serif JP", serif; }
+  #content .hero-section .hero-text-top span:nth-child(4),
+  #content .hero-section .hero-text-top span:nth-child(8),
+  #content .hero-section .hero-text-top span:nth-child(3),
+  #content .hero-section .hero-text-top span:nth-child(5),
+  #content .hero-section .hero-text-top span:nth-child(6),
+  #content .hero-section .hero-text-top span:nth-child(9),
+  #content .hero-section .hero-text-bottom span:nth-child(4),
+  #content .hero-section .hero-text-bottom span:nth-child(8),
+  #content .hero-section .hero-text-bottom span:nth-child(3),
+  #content .hero-section .hero-text-bottom span:nth-child(5),
+  #content .hero-section .hero-text-bottom span:nth-child(6),
+  #content .hero-section .hero-text-bottom span:nth-child(9) {
+    font-size: 23px; }
+  #content .hero-section .hero-text-bottom {
+    margin: 24px 0; }
+  #content .hero-section .certification {
+    background-color: #808080;
+    transform: skewX(-30deg);
+    display: inline-flex;
+    color: white;
+    padding: 2px 24px;
+    margin: 12px 0;
+    align-self: flex-start;
+    align-items: center;
+    font-family: "Noto Sans JP", sans-serif; }
+    #content .hero-section .certification span {
+      display: inline-block;
+      transform: skewX(30deg); }
+      #content .hero-section .certification span:first-child {
+        font-size: 12px;
+        margin-right: 8px; }
+      #content .hero-section .certification span:nth-child(2) {
+        font-size: 18px; }
+  #content .hero-section .treatment-price span:first-child {
+    font-size: 96px;
+    font-family: "Crimson Pro", serif;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff;
+    color: #d8a838; }
+  #content .hero-section .treatment-price span:nth-child(2) {
+    font-size: 28px;
+    font-family: "Noto Serif JP", serif;
+    color: #d8a838; }
+  #content .hero-section .treatment-price span:last-child {
+    font-size: 24px;
+    font-family: "Noto Serif JP", serif; }
+  #content .hero-section .treatment-images img:first-child {
+    width: 208px; }
+  #content .hero-section .treatment-images img:last-child {
+    width: 160px; }
+
+#content .treatment-options {
+  width: 100%;
+  background-color: #9FC5C6;
+  padding: 64px 120px; }
+  #content .treatment-options .options-card {
+    background-color: white;
+    padding: 64px; }
+    #content .treatment-options .options-card > .option-title {
+      font-size: 32px;
+      color: #444444;
+      font-family: "Noto Serif JP", serif; }
+    #content .treatment-options .options-card p {
+      text-align: center;
+      font-family: "Noto Serif JP", serif; }
+    #content .treatment-options .options-card .option-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+  #content .treatment-options .option-item {
+    position: relative;
+    margin: 48px 64px;
+    padding: 24px;
+    color: #555555; }
+    #content .treatment-options .option-item img {
+      position: absolute;
+      top: -15%; }
+    #content .treatment-options .option-item:first-child img {
+      width: 178px;
+      left: -15%; }
+    #content .treatment-options .option-item:last-child img {
+      width: 120px;
+      right: -15%; }
+    #content .treatment-options .option-item .option-title {
+      font-size: 28px;
+      color: white;
+      margin-top: 64px;
+      margin-bottom: 8px; }
+    #content .treatment-options .option-item .option-desc {
+      font-size: 18px;
+      line-height: 18px;
+      margin: 8px 0;
+      color: white;
+      font-family: "Noto Sans JP", sans-serif; }
+    #content .treatment-options .option-item:last-child .option-desc {
+      opacity: 0; }
+    #content .treatment-options .option-item .option-price p {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center; }
+    #content .treatment-options .option-item .option-price span:first-child {
+      display: inline-block;
+      font-size: 16px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      background-color: #FDFEC0; }
+    #content .treatment-options .option-item .option-price span:nth-child(2) {
+      color: #FDFEC0;
+      font-size: 48px;
+      font-family: "Crimson Pro", sans-serif; }
+    #content .treatment-options .option-item .option-price span:last-child {
+      color: #FDFEC0;
+      font-size: 20px; }
+    #content .treatment-options .option-item hr {
+      border: 1px solid white;
+      border-color: white;
+      margin: 12px 24px; }
+    #content .treatment-options .option-item .option-total {
+      font-size: 16px; }
+      #content .treatment-options .option-item .option-total span {
+        color: #555555;
+        font-size: 28px;
+        font-family: "Crimson Pro", sans-serif; }
+    #content .treatment-options .option-item .option-installment {
+      font-size: 12px; }
+  #content .treatment-options .option-list .option-item:first-child {
+    background: linear-gradient(to bottom right, #ACD9D5, #93D1DE); }
+  #content .treatment-options .option-list .option-item:last-child {
+    background: linear-gradient(to top right, #C7BEDC, #93D1DE); }
+  #content .treatment-options .additional-costs {
+    font-size: 16px;
+    color: #444444;
+    font-family: "Noto Sans JP", sans-serif; }
+  #content .treatment-options .additional-cost-list {
+    font-size: 16px;
+    text-align: center; }
+    #content .treatment-options .additional-cost-list span {
+      display: inline-block;
+      margin: 4px 8px;
+      color: #555555;
+      font-family: "Noto Sans JP", sans-serif; }
+    #content .treatment-options .additional-cost-list i {
+      padding: 6px;
+      color: #EFEFEF; }
+  #content .treatment-options .separator-line {
+    border: 1px solid #ACD9D5;
+    border-color: #ACD9D5;
+    margin: 24px auto;
+    width: 50px; }
+  #content .treatment-options .partial-treatment-title {
+    color: #69A596;
+    margin-bottom: 24px; }
+    #content .treatment-options .partial-treatment-title span:first-child {
+      font-size: 28px; }
+    #content .treatment-options .partial-treatment-title span:last-child {
+      font-size: 21px; }
+  #content .treatment-options .partial-treatment-desc {
+    color: #444444;
+    font-size: 16px; }
+
+#content .consultation-section {
+  padding: 64px 120px; }
+  #content .consultation-section .consultation-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    #content .consultation-section .consultation-header-top {
+      color: #006346;
+      font-size: 32px;
+      text-align: center;
+      position: relative;
+      margin: 100px 12px 32px 12px;
+      font-family: "Noto Serif JP", serif; }
+      #content .consultation-section .consultation-header-top span {
+        font-size: 20px; }
+      #content .consultation-section .consultation-header-top img {
+        position: absolute;
+        top: -75%;
+        right: -30%;
+        width: 238px;
+        transform: rotateZ(5deg); }
+  #content .consultation-section .consultation-content {
+    max-width: 596px; }
+    #content .consultation-section .consultation-content p {
+      color: #444444;
+      font-size: 16px;
+      text-align: center;
+      font-family: "Noto Sans JP", sans-serif; }
+  #content .consultation-section .booking-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch; }
+  #content .consultation-section .header-button {
+    margin: 24px; }
+  #content .consultation-section .booking-card {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px; }
+    #content .consultation-section .booking-card-title {
+      color: #006346;
+      font-size: 24px;
+      font-family: "Noto Serif JP", serif; }
+  #content .consultation-section .question-title {
+    margin: 24px 0;
+    color: #006346;
+    font-size: 32px;
+    font-family: "Noto Serif JP", serif; }
+  #content .consultation-section .clinic-hours {
+    font-family: "Noto Sans JP", sans-serif; }
+    #content .consultation-section .clinic-hours p {
+      font-size: 16px;
+      color: #444444; }
+      #content .consultation-section .clinic-hours p > span {
+        font-size: 12px;
+        color: #69A596;
+        background-color: white;
+        padding: 4px 8px;
+        margin: 0 4px; }
+  #content .consultation-section img.question-image {
+    width: 100%; }
+  #content .consultation-section img.logo {
+    width: 50%; }
+
+#content .treatment-reasons .reason-header {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #content .treatment-reasons .reason-header img:first-child {
+    width: 200px; }
+  #content .treatment-reasons .reason-header img:last-child {
+    width: 160px;
+    transform: rotateZ(15deg); }
+  #content .treatment-reasons .reason-header p {
+    color: #006346;
+    font-size: 38px;
+    text-align: center;
+    font-family: "Noto Serif JP", serif; }
+    #content .treatment-reasons .reason-header p span:nth-child(2), #content .treatment-reasons .reason-header p span:nth-child(8), #content .treatment-reasons .reason-header p span:nth-child(4) {
+      font-size: 24px; }
+    #content .treatment-reasons .reason-header p span:nth-child(1), #content .treatment-reasons .reason-header p span:nth-child(3) {
+      font-size: 28px; }
+    #content .treatment-reasons .reason-header p span:nth-child(7) {
+      font-size: 152px;
+      color: #69a596;
+      font-family: "Crimson Pro", serif; }
+#content .treatment-reasons .reason-items {
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 48px;
+  background-color: #fefef4; }
+#content .treatment-reasons .reason-item-container {
+  display: flex;
+  flex-direction: row;
+  height: 480px;
+  overflow: hidden; }
+  #content .treatment-reasons .reason-item-container .reason-item-content {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  #content .treatment-reasons .reason-item-container .reason-item-image {
+    width: 57%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; }
+    #content .treatment-reasons .reason-item-container .reason-item-image.left {
+      background-position: left top; }
+      #content .treatment-reasons .reason-item-container .reason-item-image.left > .reason-item-skew {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-top: 480px solid #fefef4; }
+    #content .treatment-reasons .reason-item-container .reason-item-image.right {
+      background-position: right top; }
+      #content .treatment-reasons .reason-item-container .reason-item-image.right > .reason-item-skew {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-top: 480px solid #fefef4;
+        border-left: 50px solid transparent; }
+  #content .treatment-reasons .reason-item-container:first-child .reason-item-image {
+    background-image: url("../img/img-reason_01.png"); }
+  #content .treatment-reasons .reason-item-container:nth-child(2) .reason-item-image {
+    background-image: url("../img/img-reason_02.png"); }
+  #content .treatment-reasons .reason-item-container:nth-child(3) .reason-item-image {
+    background-image: url("../img/img-reason_03.png"); }
+  #content .treatment-reasons .reason-item-container:nth-child(4) .reason-item-image {
+    background-image: url("../img/img-reason_04.png"); }
+  #content .treatment-reasons .reason-item-container:last-child .reason-item-image {
+    background-image: url("../img/img-reason_05.png"); }
+#content .treatment-reasons .reason-item-content.left {
+  margin-left: 120px; }
+#content .treatment-reasons .reason-item-content.right {
+  margin-right: 120px; }
+#content .treatment-reasons .reason-item-content .reason-item-number {
+  width: 184px;
+  margin: 24px; }
+#content .treatment-reasons .reason-item-content .reason-item-title {
+  width: 100%;
+  text-align: start;
+  color: #006346;
+  font-size: 32px;
+  margin-bottom: 24px;
+  font-family: "Noto Serif JP", serif; }
+#content .treatment-reasons .reason-item-content .reason-item-description {
+  color: #444444;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+  font-family: "Noto Sans JP", sans-serif; }
+
+#content .malocclusion-types {
+  padding: 100px;
+  background-color: #9fc5c6;
+  background-image: url("../img/bgr-grid-2.png"); }
+  #content .malocclusion-types .malocclusion-header p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 8px;
+    font-family: "Noto Serif JP", serif; }
+    #content .malocclusion-types .malocclusion-header p:first-child span {
+      font-size: 24px; }
+  #content .malocclusion-types .malocclusion-header .malocclusion-label {
+    background-color: #69a596;
+    padding: 4px 32px;
+    border-radius: 32px;
+    font-size: 18px;
+    color: white;
+    font-family: "Rounded Mplus 1c", sans-serif; }
+  #content .malocclusion-types .malocclusion-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 32px 0; }
+  #content .malocclusion-types .malocclusion-item {
+    width: 232px;
+    height: 232px;
+    background-color: #efefef;
+    border-radius: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+    margin: 12px 20px; }
+    #content .malocclusion-types .malocclusion-item img {
+      width: 126px; }
+    #content .malocclusion-types .malocclusion-item p {
+      text-align: center; }
+    #content .malocclusion-types .malocclusion-item.image p.malocclusion-title {
+      margin-top: 32px; }
+  #content .malocclusion-types p.malocclusion-title {
+    color: #328a7b;
+    font-size: 24px;
+    font-family: "Rounded Mplus 1c", sans-serif; }
+  #content .malocclusion-types p.malocclusion-pronunciation {
+    color: #328a7b;
+    font-size: 12px; }
+  #content .malocclusion-types p.malocclusion-description {
+    color: #444444;
+    font-size: 15px;
+    margin-top: 12px;
+    font-family: "Rounded Mplus 1c", sans-serif; }
+
+#content .treatment-cases {
+  background-color: #deeaea;
+  padding: 0 120px 32px 120px; }
+  #content .treatment-cases .case-header {
+    color: #328a7b;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 64px;
+    font-family: "Shippori Mincho", serif; }
+    #content .treatment-cases .case-header span {
+      font-size: 24px; }
+  #content .treatment-cases .case-list {
+    display: flex;
+    flex-direction: column; }
+  #content .treatment-cases .case-number {
+    text-align: center;
+    margin-top: 72px; }
+    #content .treatment-cases .case-number span {
+      display: inline-flex;
+      padding: 4px 48px;
+      font-size: 24px;
+      color: white;
+      background: url("../img/bgr-case.png") no-repeat;
+      background-size: contain;
+      font-family: "Crimson Pro", serif; }
+      #content .treatment-cases .case-number span:first-child {
+        font-family: "WindSong", cursive; }
+      #content .treatment-cases .case-number span:last-child {
+        font-family: "Crimson Pro", serif; }
+  #content .treatment-cases .case-grid-bg {
+    background-image: url("../img/bgr-grid-2.png"); }
+  #content .treatment-cases .case-title {
+    text-align: center;
+    margin: 8px;
+    color: #c3bc9a;
+    font-size: 24px;
+    font-family: "Noto San serif", serif; }
+  #content .treatment-cases .case-details {
+    display: flex;
+    flex-direction: row; }
+    #content .treatment-cases .case-details .case-info {
+      width: 50%;
+      margin: 32px 120px;
+      margin-left: 8px; }
+    #content .treatment-cases .case-details .case-images {
+      margin-right: 8px;
+      width: 48%; }
+    #content .treatment-cases .case-details .case-image-types {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      #content .treatment-cases .case-details .case-image-types > span {
+        background-color: white;
+        font-size: 16px;
+        display: inline-block;
+        padding: 8px 72px;
+        margin: 4px;
+        border-radius: 4px;
+        color: #878787;
+        font-family: "Noto Serif JP", serif; }
+      #content .treatment-cases .case-details .case-image-types .active {
+        background-color: #8cbaba;
+        color: white; }
+  #content .treatment-cases .case-image-comparison {
+    position: relative;
+    margin-top: 24px;
+    color: #328a7b; }
+    #content .treatment-cases .case-image-comparison img {
+      border-radius: 12px; }
+    #content .treatment-cases .case-image-comparison p {
+      padding: 0 8px; }
+    #content .treatment-cases .case-image-comparison i {
+      display: inline-block;
+      margin: 4px; }
+    #content .treatment-cases .case-image-comparison .case-image-before, #content .treatment-cases .case-image-comparison .case-image-after {
+      display: inline-block; }
+    #content .treatment-cases .case-image-comparison .case-image-after {
+      position: absolute;
+      top: 50%;
+      right: 0; }
+    #content .treatment-cases .case-image-comparison .case-image-before > p {
+      text-align: start; }
+    #content .treatment-cases .case-image-comparison .case-image-after > p {
+      text-align: end; }
+    #content .treatment-cases .case-image-comparison .case-image-before i {
+      transform: rotateZ(-90deg); }
+    #content .treatment-cases .case-image-comparison .case-image-after i {
+      transform: rotateZ(90deg); }
+  #content .treatment-cases .case-info-table {
+    min-height: 550px;
+    background-color: white;
+    padding: 32px; }
+    #content .treatment-cases .case-info-table > p {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #8cbaba;
+      padding: 8px 0;
+      margin: 12px 0; }
+    #content .treatment-cases .case-info-table .case-info-label {
+      color: #8cbaba;
+      font-size: 18px;
+      font-family: "Noto Serif JP", serif; }
+    #content .treatment-cases .case-info-table span {
+      font-size: 16px;
+      color: #444444;
+      font-family: "Noto Sans JP", sans-serif; }
+    #content .treatment-cases .case-info-table i {
+      margin: 4px; }
+  #content .treatment-cases .case-tab-header p {
+    display: inline-block;
+    cursor: pointer;
+    padding: 4px 16px; }
+    #content .treatment-cases .case-tab-header p.active {
+      background-color: #acc5c5;
+      color: white;
+      font-family: "Noto Serif JP", serif; }
+  #content .treatment-cases .case-tab-content {
+    position: relative;
+    border: 1px solid #8cbaba;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #444444;
+    font-size: 14px; }
+  #content .treatment-cases .case-tab-panel {
+    display: none; }
+    #content .treatment-cases .case-tab-panel.active {
+      display: block; }
+    #content .treatment-cases .case-tab-panel p {
+      text-align: start;
+      padding: 16px; }
+
+#content .treatment-flow .header {
+  margin-top: 64px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #1F8980;
+  font-family: "Noto Serif JP", serif; }
+  #content .treatment-flow .header > p:first-child {
+    font-size: 28px;
+    margin-bottom: 24px; }
+    #content .treatment-flow .header > p:first-child span:nth-child(2), #content .treatment-flow .header > p:first-child span:nth-child(4) {
+      font-size: 18px; }
+    #content .treatment-flow .header > p:first-child span:first-child, #content .treatment-flow .header > p:first-child span:nth-child(3) {
+      font-size: 24px; }
+  #content .treatment-flow .header p .label {
+    background-color: #69a596;
+    padding: 4px 32px;
+    border-radius: 32px;
+    font-size: 18px;
+    color: white;
+    font-family: "Rounded Mplus 1c", sans-serif; }
+#content .treatment-flow .flow-list {
+  display: flex;
+  flex-direction: column; }
+#content .treatment-flow .flow-item {
+  max-width: 75%;
+  min-height: 344px;
+  border: 1px #328A7B solid;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 12px 120px; }
+  #content .treatment-flow .flow-item img {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+  #content .treatment-flow .flow-item.left-item {
+    align-self: flex-end; }
+    #content .treatment-flow .flow-item.left-item img {
+      left: -15%; }
+  #content .treatment-flow .flow-item.right-item {
+    align-self: flex-start; }
+    #content .treatment-flow .flow-item.right-item img {
+      right: -15%; }
+  #content .treatment-flow .flow-item .flow-detail {
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+  #content .treatment-flow .flow-item .contact-options {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around; }
+#content .treatment-flow .contact-options {
+  display: flex;
+  flex-direction: row; }
+#content .treatment-flow .flow-name {
+  font-size: 28px;
+  color: #328A7B; }
+#content .treatment-flow .flow-description {
+  font-size: 16px;
+  color: #444444; }
+#content .treatment-flow .exam-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  #content .treatment-flow .exam-items span {
+    display: inline-block;
+    padding: 4px 12px;
+    background-color: #69A596;
+    margin: 4px 8px;
+    font-size: 16px;
+    color: white;
+    border-radius: 100px; }
+#content .treatment-flow .treatment-note {
+  background-color: #FEFEDB;
+  padding: 24px; }
+
+#content .treatment-commit {
+  display: flex;
+  flex-direction: row;
+  margin: 64px 0; }
+  #content .treatment-commit .commit-image {
+    margin-right: 24px;
+    flex: 1;
+    background-image: url("../img/img-message.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #content .treatment-commit .commit-content {
+    margin-left: 24px;
+    flex: 1; }
+    #content .treatment-commit .commit-content img {
+      width: 75%; }
+  #content .treatment-commit .commit-text {
+    margin-top: 12px;
+    padding: 24px 120px 0 0;
+    color: #444444; }
+  #content .treatment-commit .commit-role,
+  #content .treatment-commit .commit-name {
+    margin-top: 24px;
+    text-align: end;
+    color: #328a7b; }
+  #content .treatment-commit .commit-name {
+    margin-top: 18px; }
+    #content .treatment-commit .commit-name > span {
+      font-size: 14px;
+      display: inline-block;
+      margin-right: 8px; }
+
+#content .booking-form {
+  padding: 64px 120px;
+  background-color: #deeaea;
+  background-image: url("../img/bgr-grid-2.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #content .booking-form .form-header {
+    font-size: 24px;
+    color: #1f8980;
+    margin-bottom: 32px;
+    text-align: center; }
+  #content .booking-form .form-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 284px; }
+  #content .booking-form .input-container {
+    width: 100%;
+    margin: 4px 0; }
+    #content .booking-form .input-container.col-2 {
+      width: 48%; }
+    #content .booking-form .input-container.col-3 {
+      width: 25%; }
+    #content .booking-form .input-container.large-input {
+      width: 40%; }
+    #content .booking-form .input-container label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #333; }
+  #content .booking-form .input-wrapper {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #c7beac;
+    position: relative; }
+    #content .booking-form .input-wrapper.required-input {
+      background-color: #69a596; }
+    #content .booking-form .input-wrapper.optional-input {
+      background-color: #c7beac;
+      color: #333;
+      font-size: 14px; }
+    #content .booking-form .input-wrapper .input-description {
+      color: white;
+      font-size: 14px;
+      margin: 8px;
+      min-width: 28px; }
+    #content .booking-form .input-wrapper > i {
+      color: #69a596;
+      position: absolute;
+      top: 50%;
+      right: 12px;
+      transform: translateY(-50%) rotateZ(-90deg); }
+  #content .booking-form textarea,
+  #content .booking-form input[type="text"],
+  #content .booking-form select {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer; }
+    #content .booking-form textarea::placeholder,
+    #content .booking-form input[type="text"]::placeholder,
+    #content .booking-form select::placeholder {
+      color: #999; }
+  #content .booking-form .row-input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between; }
+  #content .booking-form .booking-note {
+    width: 65%;
+    padding: 32px;
+    margin: 48px;
+    background-color: white; }
+    #content .booking-form .booking-note .note-item {
+      display: flex;
+      flex-direction: row;
+      margin: 4px 0; }
+    #content .booking-form .booking-note p {
+      text-align: start;
+      color: #444444; }
+    #content .booking-form .booking-note i {
+      padding: 4px 8px;
+      color: #e0cda8; }
+  #content .booking-form .send-button {
+    max-width: 576px;
+    padding: 8px 48px;
+    background-color: #69a596;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    text-align: center;
+    cursor: pointer; }
+    #content .booking-form .send-button i {
+      padding: 12px;
+      font-size: 24px;
+      background-color: #deeaea;
+      border-radius: 32px;
+      color: #69a596;
+      margin-right: 24px; }
+    #content .booking-form .send-button .send-button-text p {
+      font-size: 24px; }
+    #content .booking-form .send-button .send-button-text span {
+      font-size: 20px; }
+
+#footer {
+  position: relative; }
+  #footer .footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 32px 120px; }
+    #footer .footer-top > img {
+      margin-right: 32px;
+      border-radius: 4px;
+      width: 49%; }
+    #footer .footer-top .footer-info {
+      padding: 32px;
+      width: 49%; }
+      #footer .footer-top .footer-info > img {
+        width: 336px;
+        min-width: 336px;
+        margin-bottom: 12px; }
+      #footer .footer-top .footer-info .footer-info-item {
+        display: flex;
+        flex-direction: row;
+        margin: 8px 0; }
+        #footer .footer-top .footer-info .footer-info-item i,
+        #footer .footer-top .footer-info .footer-info-item > p span:first-child {
+          color: #386d3d; }
+        #footer .footer-top .footer-info .footer-info-item > i {
+          display: inline-block;
+          padding: 0 8px;
+          font-size: 24px; }
+        #footer .footer-top .footer-info .footer-info-item span {
+          display: block; }
+        #footer .footer-top .footer-info .footer-info-item .footer-phone-num {
+          font-size: 18px; }
+      #footer .footer-top .footer-info .footer-clinic-hp-button {
+        width: 336px;
+        height: 56px;
+        text-align: center;
+        border: none;
+        background-color: #a8c56d;
+        font-weight: lighter;
+        font-size: 18px;
+        color: white;
+        margin: 12px 0; }
+      #footer .footer-top .footer-info .footer-payment-info {
+        width: 336px;
+        color: #69a596;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        border: 1px #69a596 solid; }
+        #footer .footer-top .footer-info .footer-payment-info .footer-payment-text {
+          width: 100%; }
+        #footer .footer-top .footer-info .footer-payment-info p {
+          text-align: center; }
+          #footer .footer-top .footer-info .footer-payment-info p:last-child {
+            background-color: #69a596;
+            color: white; }
+            #footer .footer-top .footer-info .footer-payment-info p:last-child i {
+              font-size: 12px;
+              padding: 0 8px; }
+  #footer .footer-map {
+    margin: 64px 120px 0;
+    background-color: #d9d9d9;
+    padding: 64px 0;
+    text-align: center;
+    font-size: 24px;
+    color: white; }
+  #footer .footer-copyright {
+    text-align: center;
+    color: white;
+    padding: 32px 0; }
+    #footer .footer-copyright > i {
+      padding: 4px;
+      font-size: 24px; }
+  #footer .footer-float {
+    position: absolute;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #9fc5c6;
+    background-image: url("../img/bgr-grid-2.png");
+    z-index: -1; }
+
+#content .treatment-reasons .reason-header {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #content .treatment-reasons .reason-header img:first-child {
+    width: 200px; }
+  #content .treatment-reasons .reason-header img:last-child {
+    width: 160px;
+    transform: rotateZ(15deg); }
+  #content .treatment-reasons .reason-header p {
+    color: #006346;
+    font-size: 38px;
+    text-align: center;
+    font-family: "Noto Serif JP", serif; }
+    #content .treatment-reasons .reason-header p span:nth-child(2), #content .treatment-reasons .reason-header p span:nth-child(8), #content .treatment-reasons .reason-header p span:nth-child(4) {
+      font-size: 24px; }
+    #content .treatment-reasons .reason-header p span:nth-child(1), #content .treatment-reasons .reason-header p span:nth-child(3) {
+      font-size: 28px; }
+    #content .treatment-reasons .reason-header p span:nth-child(7) {
+      font-size: 152px;
+      color: #69a596;
+      font-family: "Crimson Pro", serif; }
+#content .treatment-reasons .reason-items {
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 48px;
+  background-color: #fefef4; }
+#content .treatment-reasons .reason-item-container {
+  display: flex;
+  flex-direction: row;
+  height: 480px;
+  overflow: hidden; }
+  #content .treatment-reasons .reason-item-container .reason-item-content {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  #content .treatment-reasons .reason-item-container .reason-item-image {
+    width: 57%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; }
+    #content .treatment-reasons .reason-item-container .reason-item-image.left {
+      background-position: left top; }
+      #content .treatment-reasons .reason-item-container .reason-item-image.left > .reason-item-skew {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-top: 480px solid #fefef4; }
+    #content .treatment-reasons .reason-item-container .reason-item-image.right {
+      background-position: right top; }
+      #content .treatment-reasons .reason-item-container .reason-item-image.right > .reason-item-skew {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-top: 480px solid #fefef4;
+        border-left: 50px solid transparent; }
+  #content .treatment-reasons .reason-item-container:first-child .reason-item-image {
+    background-image: url("../img/img-reason_01.png"); }
+  #content .treatment-reasons .reason-item-container:nth-child(2) .reason-item-image {
+    background-image: url("../img/img-reason_02.png"); }
+  #content .treatment-reasons .reason-item-container:nth-child(3) .reason-item-image {
+    background-image: url("../img/img-reason_03.png"); }
+  #content .treatment-reasons .reason-item-container:nth-child(4) .reason-item-image {
+    background-image: url("../img/img-reason_04.png"); }
+  #content .treatment-reasons .reason-item-container:last-child .reason-item-image {
+    background-image: url("../img/img-reason_05.png"); }
+#content .treatment-reasons .reason-item-content.left {
+  margin-left: 120px; }
+#content .treatment-reasons .reason-item-content.right {
+  margin-right: 120px; }
+#content .treatment-reasons .reason-item-content .reason-item-number {
+  width: 184px;
+  margin: 24px; }
+#content .treatment-reasons .reason-item-content .reason-item-title {
+  width: 100%;
+  text-align: start;
+  color: #006346;
+  font-size: 32px;
+  margin-bottom: 24px;
+  font-family: "Noto Serif JP", serif; }
+#content .treatment-reasons .reason-item-content .reason-item-description {
+  color: #444444;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+  font-family: "Noto Sans JP", sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

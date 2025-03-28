@@ -1,0 +1,79 @@
+#content .treatment-flow .header {
+  margin-top: 64px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #1F8980;
+  font-family: "Noto Serif JP", serif; }
+  #content .treatment-flow .header > p:first-child {
+    font-size: 28px;
+    margin-bottom: 24px; }
+    #content .treatment-flow .header > p:first-child span:nth-child(2), #content .treatment-flow .header > p:first-child span:nth-child(4) {
+      font-size: 18px; }
+    #content .treatment-flow .header > p:first-child span:first-child, #content .treatment-flow .header > p:first-child span:nth-child(3) {
+      font-size: 24px; }
+  #content .treatment-flow .header p .label {
+    background-color: #69a596;
+    padding: 4px 32px;
+    border-radius: 32px;
+    font-size: 18px;
+    color: white;
+    font-family: "Rounded Mplus 1c", sans-serif; }
+#content .treatment-flow .flow-list {
+  display: flex;
+  flex-direction: column; }
+#content .treatment-flow .flow-item {
+  max-width: 75%;
+  min-height: 344px;
+  border: 1px #328A7B solid;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 12px 120px; }
+  #content .treatment-flow .flow-item img {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+  #content .treatment-flow .flow-item.left-item {
+    align-self: flex-end; }
+    #content .treatment-flow .flow-item.left-item img {
+      left: -15%; }
+  #content .treatment-flow .flow-item.right-item {
+    align-self: flex-start; }
+    #content .treatment-flow .flow-item.right-item img {
+      right: -15%; }
+  #content .treatment-flow .flow-item .flow-detail {
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+  #content .treatment-flow .flow-item .contact-options {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around; }
+#content .treatment-flow .contact-options {
+  display: flex;
+  flex-direction: row; }
+#content .treatment-flow .flow-name {
+  font-size: 28px;
+  color: #328A7B; }
+#content .treatment-flow .flow-description {
+  font-size: 16px;
+  color: #444444; }
+#content .treatment-flow .exam-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  #content .treatment-flow .exam-items span {
+    display: inline-block;
+    padding: 4px 12px;
+    background-color: #69A596;
+    margin: 4px 8px;
+    font-size: 16px;
+    color: white;
+    border-radius: 100px; }
+#content .treatment-flow .treatment-note {
+  background-color: #FEFEDB;
+  padding: 24px; }
+
+/*# sourceMappingURL=flow.css.map */

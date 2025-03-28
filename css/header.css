@@ -1,0 +1,94 @@
+#header {
+  width: 100%;
+  padding: 12px 100px;
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px); }
+  #header img {
+    height: 48px;
+    margin: auto 0; }
+  #header .mobile-menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+    cursor: pointer; }
+    #header .mobile-menu-button i {
+      font-size: 38px;
+      color: #386d3d; }
+  #header .mobile-navigation {
+    padding: 24px 32px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: fit-content;
+    background-color: #f8f8e8;
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.3s ease, transform 0.3s ease; }
+    #header .mobile-navigation i {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      font-size: 38px;
+      color: #386d3d; }
+    #header .mobile-navigation ul {
+      margin-top: 24px;
+      white-space: nowrap; }
+    #header .mobile-navigation li {
+      list-style: none; }
+    #header .mobile-navigation a {
+      display: inline-block;
+      text-decoration: none;
+      color: #386d3d;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 12px 24px; }
+
+.hero-section .booking-button,
+.header-button, .phone-button,
+.desktop-button {
+  color: white;
+  display: inline-block;
+  height: 64px;
+  padding: 4px 22px;
+  border-radius: 8px;
+  text-align: center;
+  align-self: flex-start;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold; }
+
+.phone-button {
+  float: right;
+  margin-right: 10px;
+  background: linear-gradient(to bottom, #89bb4a 0%, #a9c56d 100%);
+  border: 2px solid #89bb4a; }
+
+.hero-section .booking-button,
+.desktop-button {
+  background: linear-gradient(to bottom, #de9300 0%, #e3a740 100%);
+  border: 3px solid #de9300; }
+
+.desktop-button {
+  float: right; }
+
+.header-button p:first-child {
+  font-size: 14px;
+  font-weight: bold; }
+.header-button i {
+  font-size: 16px;
+  margin: 4px; }
+.header-button p:nth-child(2) {
+  font-size: 18px; }
+
+.phone-button p:nth-child(2) {
+  font-size: 22px; }
+
+/*# sourceMappingURL=header.css.map */

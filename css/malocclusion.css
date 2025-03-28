@@ -1,0 +1,55 @@
+#content .malocclusion-types {
+  padding: 100px;
+  background-color: #9fc5c6;
+  background-image: url("../img/bgr-grid-2.png"); }
+  #content .malocclusion-types .malocclusion-header p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 8px;
+    font-family: "Noto Serif JP", serif; }
+    #content .malocclusion-types .malocclusion-header p:first-child span {
+      font-size: 24px; }
+  #content .malocclusion-types .malocclusion-header .malocclusion-label {
+    background-color: #69a596;
+    padding: 4px 32px;
+    border-radius: 32px;
+    font-size: 18px;
+    color: white;
+    font-family: "Rounded Mplus 1c", sans-serif; }
+  #content .malocclusion-types .malocclusion-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 32px 0; }
+  #content .malocclusion-types .malocclusion-item {
+    width: 232px;
+    height: 232px;
+    background-color: #efefef;
+    border-radius: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+    margin: 12px 20px; }
+    #content .malocclusion-types .malocclusion-item img {
+      width: 126px; }
+    #content .malocclusion-types .malocclusion-item p {
+      text-align: center; }
+    #content .malocclusion-types .malocclusion-item.image p.malocclusion-title {
+      margin-top: 32px; }
+  #content .malocclusion-types p.malocclusion-title {
+    color: #328a7b;
+    font-size: 24px;
+    font-family: "Rounded Mplus 1c", sans-serif; }
+  #content .malocclusion-types p.malocclusion-pronunciation {
+    color: #328a7b;
+    font-size: 12px; }
+  #content .malocclusion-types p.malocclusion-description {
+    color: #444444;
+    font-size: 15px;
+    margin-top: 12px;
+    font-family: "Rounded Mplus 1c", sans-serif; }
+
+/*# sourceMappingURL=malocclusion.css.map */

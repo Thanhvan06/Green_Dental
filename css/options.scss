@@ -1,0 +1,184 @@
+#content {
+    .treatment-options {
+      width: 100%;
+      background-color: #9FC5C6;
+      padding: 64px 120px;
+  
+      .options-card {
+        background-color: white;
+        padding: 64px;
+  
+        > .option-title {
+          font-size: 32px;
+          color: #444444;
+          font-family: "Noto Serif JP", serif;
+        }
+  
+        p {
+          text-align: center;
+          font-family: "Noto Serif JP", serif;
+        }
+  
+        .option-list {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+        }
+      }
+  
+      .option-item {
+        position: relative;
+        margin: 48px 64px;
+        padding: 24px;
+        color: #555555;
+  
+        img {
+          position: absolute;
+          top: -15%;
+        }
+  
+        &:first-child {
+          img {
+            width: 178px;
+            left: -15%;
+          }
+        }
+  
+        &:last-child {
+          img {
+            width: 120px;
+            right: -15%;
+          }
+        }
+  
+        .option-title {
+          font-size: 28px;
+          color: white;
+          margin-top: 64px;
+          margin-bottom: 8px;
+        }
+  
+        .option-desc {
+          font-size: 18px;
+          line-height: 18px;
+          margin: 8px 0;
+          color: white;
+          font-family: "Noto Sans JP", sans-serif;
+        }
+  
+        &:last-child .option-desc {
+          opacity: 0;
+        }
+  
+        .option-price {
+          p {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+          }
+  
+          span {
+            &:first-child {
+              display: inline-block;
+              font-size: 16px;
+              padding: 4px 8px;
+              border-radius: 4px;
+              background-color: #FDFEC0;
+            }
+  
+            &:nth-child(2) {
+              color: #FDFEC0;
+              font-size: 48px;
+              font-family: "Crimson Pro", sans-serif;
+            }
+  
+            &:last-child {
+              color: #FDFEC0;
+              font-size: 20px;
+            }
+          }
+        }
+  
+        hr {
+          border: 1px solid white;
+          border-color: white;
+          margin: 12px 24px;
+        }
+  
+        .option-total {
+          font-size: 16px;
+  
+          span {
+            color: #555555;
+            font-size: 28px;
+            font-family: "Crimson Pro", sans-serif;
+          }
+        }
+  
+        .option-installment {
+          font-size: 12px;
+        }
+      }
+  
+      .option-list .option-item {
+        &:first-child {
+          background: linear-gradient(to bottom right, #ACD9D5, #93D1DE);
+        }
+  
+        &:last-child {
+          background: linear-gradient(to top right, #C7BEDC, #93D1DE);
+        }
+      }
+  
+      .additional-costs {
+        font-size: 16px;
+        color: #444444;
+        font-family: "Noto Sans JP", sans-serif;
+      }
+  
+      .additional-cost-list {
+        font-size: 16px;
+        text-align: center;
+  
+        span {
+          display: inline-block;
+          margin: 4px 8px;
+          color: #555555;
+          font-family: "Noto Sans JP", sans-serif;
+        }
+  
+        i {
+          padding: 6px;
+          color: #EFEFEF;
+        }
+      }
+  
+      .separator-line {
+        border: 1px solid #ACD9D5;
+        border-color: #ACD9D5;
+        margin: 24px auto;
+        width: 50px;
+      }
+  
+      .partial-treatment-title {
+        color: #69A596;
+        margin-bottom: 24px;
+  
+        span {
+          &:first-child {
+            font-size: 28px;
+          }
+  
+          &:last-child {
+            font-size: 21px;
+          }
+        }
+      }
+  
+      .partial-treatment-desc {
+        color: #444444;
+        font-size: 16px;
+      }
+    }
+  }

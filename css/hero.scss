@@ -1,0 +1,112 @@
+#content {
+    .hero-section {
+      width: 100%;
+      background-image: url("../img/banner.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+      .hero-content {
+        padding-top: 100px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+  
+        .hero-card {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+        }
+  
+        .hero-details {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+  
+        .hero-text {
+          font-size: 42px;
+          color: #555555;
+          font-family: "Noto Serif JP", serif;
+        }
+      }
+  
+      .hero-text-top,
+      .hero-text-bottom {
+        span:nth-child(4),
+        span:nth-child(8),
+        span:nth-child(3),
+        span:nth-child(5),
+        span:nth-child(6),
+        span:nth-child(9) {
+          font-size: 23px;
+        }
+      }
+  
+      .hero-text-bottom {
+        margin: 24px 0;
+      }
+  
+      .certification {
+        background-color: #808080;
+        transform: skewX(-30deg);
+        display: inline-flex;
+        color: white;
+        padding: 2px 24px;
+        margin: 12px 0;
+        align-self: flex-start;
+        align-items: center;
+        font-family: "Noto Sans JP", sans-serif;
+  
+        span {
+          display: inline-block;
+          transform: skewX(30deg);
+  
+          &:first-child {
+            font-size: 12px;
+            margin-right: 8px;
+          }
+  
+          &:nth-child(2) {
+            font-size: 18px;
+          }
+        }
+      }
+  
+      .treatment-price {
+        span {
+          &:first-child {
+            font-size: 96px;
+            font-family: "Crimson Pro", serif;
+            text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff,
+              3px 3px 0 #fff;
+            color: #d8a838;
+          }
+  
+          &:nth-child(2) {
+            font-size: 28px;
+            font-family: "Noto Serif JP", serif;
+            color: #d8a838;
+          }
+  
+          &:last-child {
+            font-size: 24px;
+            font-family: "Noto Serif JP", serif;
+          }
+        }
+      }
+  
+      .treatment-images {
+        img {
+          &:first-child {
+            width: 208px;
+          }
+  
+          &:last-child {
+            width: 160px;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,777 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    #header {
+      padding: 12px 24px;
+    }
+  
+    .header-button {
+      display: none;
+    }
+  
+    .header-button i {
+      font-size: 14px;
+      margin: 4px;
+    }
+  
+    .header-button p:nth-child(2) {
+      font-size: 16px;
+    }
+  
+    .phone-button p:nth-child(2) {
+      font-size: 20px;
+    }
+  
+    #header .mobile-menu-button i {
+      font-size: 32px;
+    }
+  
+    #content {
+      .hero-content {
+        .hero-text {
+          display: flex;
+          flex-direction: row;
+          justify-content: end;
+  
+          .hero-text-line {
+            display: flex;
+            flex-direction: column;
+            margin: 0 8px;
+          }
+        }
+  
+        .hero-card {
+          align-items: center;
+        }
+  
+        .booking-button,
+        .treatment-images,
+        .certification {
+          align-self: center;
+        }
+  
+        .treatment-price {
+          text-align: center;
+        }
+      }
+  
+      .treatment-options {
+        padding: 16px 24px;
+  
+        .options-card {
+          padding: 16px;
+  
+          > .option-title {
+            font-size: 28px;
+          }
+  
+          .option-item {
+            margin: 48px 32px;
+          }
+        }
+      }
+  
+      .consultation-section {
+        padding: 16px 24px;
+      }
+  
+      .treatment-reasons {
+        .reason-item-content {
+          &.left {
+            margin-left: 24px;
+          }
+  
+          &.right {
+            margin-right: 24px;
+          }
+  
+          .reason-item-number {
+            width: 120px;
+            margin: 24px;
+          }
+        }
+      }
+  
+      .malocclusion-types {
+        padding: 24px;
+  
+        .malocclusion-list {
+          margin: 0;
+        }
+  
+        .malocclusion-item {
+          width: 200px;
+          height: 200px;
+          padding: 18px;
+          margin: 6px 12px;
+        }
+  
+        .malocclusion-header p {
+          font-size: 16px;
+        }
+  
+        p:first-child span {
+          font-size: 18px;
+        }
+  
+        .malocclusion-header .malocclusion-label {
+          font-size: 16px;
+        }
+  
+        .malocclusion-item img {
+          width: 100px;
+        }
+  
+        .malocclusion-item p.malocclusion-title {
+          font-size: 18px;
+        }
+  
+        p.malocclusion-title {
+          margin-top: 24px;
+        }
+  
+        p.malocclusion-description {
+          font-size: 14px;
+          margin-top: 10px;
+        }
+      }
+  
+      .treatment-cases {
+        .case-item {
+          .case-details {
+            flex-direction: column;
+            align-items: center;
+  
+            .case-info-table {
+              margin-top: 120px;
+            }
+  
+            .case-images,
+            .case-info {
+              width: 90%;
+              margin: 24px;
+            }
+          }
+  
+          .case-title {
+            font-size: 16px;
+          }
+        }
+  
+        .case-header {
+          font-size: 18px;
+          padding-top: 10px;
+  
+          span {
+            font-size: 16px;
+          }
+        }
+  
+        .case-number {
+          margin-top: 42px;
+  
+          span {
+            font-size: 18px;
+          }
+        }
+  
+        .case-details {
+          font-size: 16px;
+  
+          .case-image-types span {
+            font-size: 14px;
+            padding: 8px 48px;
+          }
+        }
+      }
+  
+      .treatment-flow {
+        .flow-item {
+          width: 100%;
+          min-height: 240px;
+          margin: 48px 24px;
+  
+          img {
+            width: 200px;
+            position: absolute;
+            top: -41%;
+            transform: translateY(15%);
+          }
+  
+          &.left-item img {
+            left: 2%;
+          }
+  
+          &.right-item img {
+            right: 2%;
+          }
+        }
+  
+        .flow-detail {
+          margin: 0 16px;
+          align-items: center;
+        }
+  
+        .flow-item .flow-name {
+          font-size: 24px;
+        }
+  
+        .flow-item .flow-description {
+          font-size: 14px;
+        }
+      }
+  
+      .treatment-commit {
+        margin: 32px 0;
+  
+        .commit-image {
+          margin-right: 16px;
+        }
+  
+        .commit-content {
+          margin-left: 24px;
+          flex: 1;
+        }
+  
+        .commit-text {
+          margin-top: 12px;
+          padding: 12px 24px 0 0;
+        }
+      }
+  
+      .booking-form {
+        padding: 24px;
+  
+        .form-wrapper {
+          width: 75%;
+        }
+  
+        .booking-note {
+          font-size: 14px;
+          width: 80%;
+          padding: 16px;
+          margin: 24px;
+        }
+      }
+    }
+  
+    #footer {
+      .footer-top {
+        margin: 24px;
+  
+        .footer-info {
+          padding: 24px;
+        }
+      }
+  
+      .footer-map {
+        margin-top: 32px;
+        margin-left: 24px;
+        margin-right: 24px;
+        padding: 48px 0;
+      }
+  
+      .footer-copyright {
+        padding: 18px 0;
+      }
+  
+      .footer-float {
+        height: 140px;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    #header {
+      padding: 12px;
+    }
+  
+    .header-button {
+      display: none;
+    }
+  
+    .header-button i {
+      font-size: 14px;
+      margin: 4px;
+    }
+  
+    .header-button p:nth-child(2) {
+      font-size: 16px;
+    }
+  
+    .phone-button p:nth-child(2) {
+      font-size: 20px;
+    }
+  
+    #header .mobile-menu-button i {
+      font-size: 32px;
+    }
+  
+    #content .hero-section .hero-content {
+      .hero-details {
+        justify-content: center;
+      }
+  
+      .hero-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+      }
+  
+      .hero-text .hero-text-line {
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .certification {
+        flex-direction: column;
+      }
+  
+      .hero-card {
+        width: 95%;
+      }
+  
+      .treatment-images {
+        display: flex;
+        justify-content: center;
+  
+        > img {
+          width: 30%;
+        }
+      }
+  
+      .certification {
+        align-items: start;
+      }
+  
+      .desktop-button,
+      .treatment-images,
+      .certification {
+        align-self: center;
+      }
+  
+      .treatment-price {
+        text-align: center;
+  
+        span:first-child {
+          font-size: 78px;
+        }
+  
+        span:nth-child(2) {
+          font-size: 24px;
+        }
+  
+        span:last-child {
+          font-size: 18px;
+        }
+      }
+    }
+  
+    #content .treatment-options {
+      padding: 12px;
+  
+      .options-card {
+        padding: 16px;
+  
+        > .option-title {
+          font-size: 24px;
+        }
+  
+        .option-list {
+          flex-direction: column;
+        }
+  
+        .option-item {
+          img {
+            top: -10%;
+          }
+  
+          &:first-child img {
+            width: 178px;
+            left: 0;
+          }
+  
+          &:last-child img {
+            width: 120px;
+            right: 0;
+          }
+  
+          .option-title {
+            font-size: 24px;
+          }
+  
+          .option-desc {
+            font-size: 16px;
+            line-height: 16px;
+          }
+  
+          .option-price {
+            span:first-child {
+              font-size: 14px;
+            }
+  
+            span:nth-child(2) {
+              color: #FDFEC0;
+              font-size: 42px;
+            }
+          }
+        }
+  
+        .additional-costs {
+          font-size: 14px;
+          text-align: start;
+        }
+  
+        .additional-cost-list {
+          font-size: 14px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+  
+        .partial-treatment-title {
+          span:first-child {
+            font-size: 24px;
+          }
+  
+          span:last-child {
+            font-size: 18px;
+          }
+        }
+  
+        .partial-treatment-desc {
+          font-size: 14px;
+        }
+  
+        .option-item {
+          margin: 48px 32px;
+        }
+      }
+    }
+  
+    #content .header-button {
+      margin: 12px;
+    }
+  
+    #content .consultation-section {
+      padding: 16px 12px;
+  
+      .consultation-header-top {
+        font-size: 28px;
+        width: 50%;
+      }
+  
+      .booking-contact {
+        flex-direction: column;
+      }
+  
+      .booking-card img.logo {
+        width: 75%;
+      }
+    }
+  
+    #content .treatment-reasons {
+      .reason-item-content {
+        &.left {
+          margin-left: 24px;
+        }
+  
+        &.right {
+          margin-right: 24px;
+        }
+      }
+  
+      .reason-header {
+        img:first-child,
+        img:last-child {
+          display: none;
+        }
+  
+        p {
+          color: #006346;
+          font-size: 32px;
+          text-align: center;
+  
+          span:nth-child(2),
+          span:nth-child(8),
+          span:nth-child(4) {
+            font-size: 18px;
+          }
+  
+          span:nth-child(1),
+          span:nth-child(3) {
+            font-size: 22px;
+          }
+  
+          span:nth-child(7) {
+            font-size: 42px;
+          }
+        }
+      }
+  
+      .reason-item-content .reason-item-number {
+        width: 100px;
+        margin: 24px;
+      }
+  
+      .reason-item-image .reason-item-skew {
+        display: none;
+      }
+  
+      .reason-item-container {
+        .reason-item-content {
+          width: 100%;
+        }
+  
+        .reason-item-image {
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+        }
+      }
+  
+      .reason-item-container {
+        flex-direction: column;
+        margin: 12px;
+  
+        &.right {
+          flex-direction: column-reverse;
+        }
+      }
+  
+      .reason-item-content {
+        &.left {
+          margin-left: 12px;
+        }
+  
+        &.right {
+          margin-right: 12px;
+        }
+      }
+    }
+  
+    #content .malocclusion-types {
+      padding: 24px;
+  
+      .malocclusion-list {
+        margin: 0;
+      }
+  
+      .malocclusion-item {
+        width: 200px;
+        height: 200px;
+        padding: 18px;
+        margin: 6px 12px;
+  
+        img {
+          width: 100px;
+        }
+  
+        p.malocclusion-title {
+          font-size: 18px;
+        }
+  
+        &.image p.malocclusion-title {
+          margin-top: 24px;
+        }
+  
+        p.malocclusion-description {
+          font-size: 14px;
+          margin-top: 10px;
+        }
+      }
+  
+      .malocclusion-header {
+        p {
+          font-size: 16px;
+        }
+      }
+  
+      p:first-child span {
+        font-size: 18px;
+      }
+  
+      .malocclusion-label {
+        font-size: 16px;
+      }
+    }
+  
+    #content .treatment-cases {
+      padding: 12px;
+  
+      .case-header {
+        font-size: 18px;
+        padding-top: 10px;
+  
+        span {
+          font-size: 16px;
+        }
+      }
+  
+      .case-item {
+        .case-number {
+          margin-top: 42px;
+  
+          span {
+            font-size: 18px;
+          }
+        }
+  
+        .case-details {
+          flex-direction: column;
+          align-items: center;
+  
+          .case-info-table {
+            margin-top: 120px;
+          }
+  
+          .case-images,
+          .case-info {
+            width: 90%;
+            margin: 24px;
+          }
+        }
+  
+        .case-title {
+          font-size: 16px;
+        }
+  
+        .case-details {
+          font-size: 16px;
+  
+          .case-image-types span {
+            font-size: 14px;
+            padding: 8px 48px;
+          }
+        }
+      }
+    }
+  
+    #content .treatment-flow {
+      margin: 16px;
+  
+      .flow-item {
+        max-width: 100%;
+        min-height: 240px;
+        margin: 48px 24px;
+  
+        img {
+          width: 160px;
+          position: absolute;
+          top: -35%;
+          transform: translateY(15%);
+        }
+  
+        &.left-item img {
+          left: 2%;
+        }
+  
+        &.right-item img {
+          right: 2%;
+        }
+  
+        .contact-options {
+          flex-direction: column;
+        }
+  
+        .contact-options .header-button {
+          margin-top: 12px;
+          align-self: center;
+        }
+      }
+  
+      .flow-detail {
+        margin: 32px 16px;
+        align-items: center;
+      }
+  
+      .flow-item .flow-name {
+        font-size: 18px;
+      }
+  
+      .flow-item .treatment-note,
+      .flow-item .flow-description {
+        font-size: 12px;
+      }
+    }
+  
+    #content .treatment-commit {
+      margin: 32px 0;
+  
+      .commit-image {
+        margin-right: 8px;
+      }
+  
+      .commit-content {
+        margin-left: 0;
+        font-size: 12px;
+      }
+  
+      .commit-text {
+        margin-top: 12px;
+        padding: 0;
+      }
+    }
+  
+    #content .booking-form .form-wrapper {
+      width: 100%;
+    }
+  
+    #content .booking-form {
+      padding: 32px 24px;
+      font-size: 14px;
+    }
+  
+    #content .booking-form .form-header {
+      font-size: 18px;
+      margin-bottom: 24px;
+    }
+  
+    #content .booking-form .input-container.col-2 {
+      width: 100%;
+    }
+  
+    #content .booking-form .booking-note {
+      font-size: 14px;
+      width: 100%;
+      padding: 16px;
+      margin: 24px;
+    }
+  
+    #content .booking-form .send-button .send-button-text p {
+      font-size: 18px;
+    }
+  
+    #content .booking-form .send-button .send-button-text span {
+      font-size: 14px;
+    }
+  
+    #footer {
+      .footer-top {
+        margin: 24px;
+        flex-direction: column;
+      }
+  
+      .footer-top > img,
+      .footer-top .footer-info {
+        width: 100%;
+      }
+  
+      .footer-top .footer-info {
+        padding: 24px;
+      }
+  
+      .footer-map {
+        margin-top: 32px;
+        margin-left: 24px;
+        margin-right: 24px;
+        padding: 48px 0;
+      }
+  
+      .footer-copyright {
+        padding: 18px 0;
+      }
+  
+      .footer-float {
+        height: 140px;
+      }
+    }
+  }
+  

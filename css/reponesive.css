@@ -1,0 +1,443 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  #header {
+    padding: 12px 24px; }
+
+  .header-button {
+    display: none; }
+
+  .header-button i {
+    font-size: 14px;
+    margin: 4px; }
+
+  .header-button p:nth-child(2) {
+    font-size: 16px; }
+
+  .phone-button p:nth-child(2) {
+    font-size: 20px; }
+
+  #header .mobile-menu-button i {
+    font-size: 32px; }
+
+  #content .hero-content .hero-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: end; }
+    #content .hero-content .hero-text .hero-text-line {
+      display: flex;
+      flex-direction: column;
+      margin: 0 8px; }
+  #content .hero-content .hero-card {
+    align-items: center; }
+  #content .hero-content .booking-button,
+  #content .hero-content .treatment-images,
+  #content .hero-content .certification {
+    align-self: center; }
+  #content .hero-content .treatment-price {
+    text-align: center; }
+  #content .treatment-options {
+    padding: 16px 24px; }
+    #content .treatment-options .options-card {
+      padding: 16px; }
+      #content .treatment-options .options-card > .option-title {
+        font-size: 28px; }
+      #content .treatment-options .options-card .option-item {
+        margin: 48px 32px; }
+  #content .consultation-section {
+    padding: 16px 24px; }
+  #content .treatment-reasons .reason-item-content.left {
+    margin-left: 24px; }
+  #content .treatment-reasons .reason-item-content.right {
+    margin-right: 24px; }
+  #content .treatment-reasons .reason-item-content .reason-item-number {
+    width: 120px;
+    margin: 24px; }
+  #content .malocclusion-types {
+    padding: 24px; }
+    #content .malocclusion-types .malocclusion-list {
+      margin: 0; }
+    #content .malocclusion-types .malocclusion-item {
+      width: 200px;
+      height: 200px;
+      padding: 18px;
+      margin: 6px 12px; }
+    #content .malocclusion-types .malocclusion-header p {
+      font-size: 16px; }
+    #content .malocclusion-types p:first-child span {
+      font-size: 18px; }
+    #content .malocclusion-types .malocclusion-header .malocclusion-label {
+      font-size: 16px; }
+    #content .malocclusion-types .malocclusion-item img {
+      width: 100px; }
+    #content .malocclusion-types .malocclusion-item p.malocclusion-title {
+      font-size: 18px; }
+    #content .malocclusion-types p.malocclusion-title {
+      margin-top: 24px; }
+    #content .malocclusion-types p.malocclusion-description {
+      font-size: 14px;
+      margin-top: 10px; }
+  #content .treatment-cases .case-item .case-details {
+    flex-direction: column;
+    align-items: center; }
+    #content .treatment-cases .case-item .case-details .case-info-table {
+      margin-top: 120px; }
+    #content .treatment-cases .case-item .case-details .case-images,
+    #content .treatment-cases .case-item .case-details .case-info {
+      width: 90%;
+      margin: 24px; }
+  #content .treatment-cases .case-item .case-title {
+    font-size: 16px; }
+  #content .treatment-cases .case-header {
+    font-size: 18px;
+    padding-top: 10px; }
+    #content .treatment-cases .case-header span {
+      font-size: 16px; }
+  #content .treatment-cases .case-number {
+    margin-top: 42px; }
+    #content .treatment-cases .case-number span {
+      font-size: 18px; }
+  #content .treatment-cases .case-details {
+    font-size: 16px; }
+    #content .treatment-cases .case-details .case-image-types span {
+      font-size: 14px;
+      padding: 8px 48px; }
+  #content .treatment-flow .flow-item {
+    width: 100%;
+    min-height: 240px;
+    margin: 48px 24px; }
+    #content .treatment-flow .flow-item img {
+      width: 200px;
+      position: absolute;
+      top: -41%;
+      transform: translateY(15%); }
+    #content .treatment-flow .flow-item.left-item img {
+      left: 2%; }
+    #content .treatment-flow .flow-item.right-item img {
+      right: 2%; }
+  #content .treatment-flow .flow-detail {
+    margin: 0 16px;
+    align-items: center; }
+  #content .treatment-flow .flow-item .flow-name {
+    font-size: 24px; }
+  #content .treatment-flow .flow-item .flow-description {
+    font-size: 14px; }
+  #content .treatment-commit {
+    margin: 32px 0; }
+    #content .treatment-commit .commit-image {
+      margin-right: 16px; }
+    #content .treatment-commit .commit-content {
+      margin-left: 24px;
+      flex: 1; }
+    #content .treatment-commit .commit-text {
+      margin-top: 12px;
+      padding: 12px 24px 0 0; }
+  #content .booking-form {
+    padding: 24px; }
+    #content .booking-form .form-wrapper {
+      width: 75%; }
+    #content .booking-form .booking-note {
+      font-size: 14px;
+      width: 80%;
+      padding: 16px;
+      margin: 24px; }
+
+  #footer .footer-top {
+    margin: 24px; }
+    #footer .footer-top .footer-info {
+      padding: 24px; }
+  #footer .footer-map {
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 48px 0; }
+  #footer .footer-copyright {
+    padding: 18px 0; }
+  #footer .footer-float {
+    height: 140px; } }
+@media (max-width: 767px) {
+  #header {
+    padding: 12px; }
+
+  .header-button {
+    display: none; }
+
+  .header-button i {
+    font-size: 14px;
+    margin: 4px; }
+
+  .header-button p:nth-child(2) {
+    font-size: 16px; }
+
+  .phone-button p:nth-child(2) {
+    font-size: 20px; }
+
+  #header .mobile-menu-button i {
+    font-size: 32px; }
+
+  #content .hero-section .hero-content .hero-details {
+    justify-content: center; }
+  #content .hero-section .hero-content .hero-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: end; }
+  #content .hero-section .hero-content .hero-text .hero-text-line {
+    display: flex;
+    flex-direction: column; }
+  #content .hero-section .hero-content .certification {
+    flex-direction: column; }
+  #content .hero-section .hero-content .hero-card {
+    width: 95%; }
+  #content .hero-section .hero-content .treatment-images {
+    display: flex;
+    justify-content: center; }
+    #content .hero-section .hero-content .treatment-images > img {
+      width: 30%; }
+  #content .hero-section .hero-content .certification {
+    align-items: start; }
+  #content .hero-section .hero-content .desktop-button,
+  #content .hero-section .hero-content .treatment-images,
+  #content .hero-section .hero-content .certification {
+    align-self: center; }
+  #content .hero-section .hero-content .treatment-price {
+    text-align: center; }
+    #content .hero-section .hero-content .treatment-price span:first-child {
+      font-size: 78px; }
+    #content .hero-section .hero-content .treatment-price span:nth-child(2) {
+      font-size: 24px; }
+    #content .hero-section .hero-content .treatment-price span:last-child {
+      font-size: 18px; }
+
+  #content .treatment-options {
+    padding: 12px; }
+    #content .treatment-options .options-card {
+      padding: 16px; }
+      #content .treatment-options .options-card > .option-title {
+        font-size: 24px; }
+      #content .treatment-options .options-card .option-list {
+        flex-direction: column; }
+      #content .treatment-options .options-card .option-item img {
+        top: -10%; }
+      #content .treatment-options .options-card .option-item:first-child img {
+        width: 178px;
+        left: 0; }
+      #content .treatment-options .options-card .option-item:last-child img {
+        width: 120px;
+        right: 0; }
+      #content .treatment-options .options-card .option-item .option-title {
+        font-size: 24px; }
+      #content .treatment-options .options-card .option-item .option-desc {
+        font-size: 16px;
+        line-height: 16px; }
+      #content .treatment-options .options-card .option-item .option-price span:first-child {
+        font-size: 14px; }
+      #content .treatment-options .options-card .option-item .option-price span:nth-child(2) {
+        color: #FDFEC0;
+        font-size: 42px; }
+      #content .treatment-options .options-card .additional-costs {
+        font-size: 14px;
+        text-align: start; }
+      #content .treatment-options .options-card .additional-cost-list {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+      #content .treatment-options .options-card .partial-treatment-title span:first-child {
+        font-size: 24px; }
+      #content .treatment-options .options-card .partial-treatment-title span:last-child {
+        font-size: 18px; }
+      #content .treatment-options .options-card .partial-treatment-desc {
+        font-size: 14px; }
+      #content .treatment-options .options-card .option-item {
+        margin: 48px 32px; }
+
+  #content .header-button {
+    margin: 12px; }
+
+  #content .consultation-section {
+    padding: 16px 12px; }
+    #content .consultation-section .consultation-header-top {
+      font-size: 28px;
+      width: 50%; }
+    #content .consultation-section .booking-contact {
+      flex-direction: column; }
+    #content .consultation-section .booking-card img.logo {
+      width: 75%; }
+
+  #content .treatment-reasons .reason-item-content.left {
+    margin-left: 24px; }
+  #content .treatment-reasons .reason-item-content.right {
+    margin-right: 24px; }
+  #content .treatment-reasons .reason-header img:first-child,
+  #content .treatment-reasons .reason-header img:last-child {
+    display: none; }
+  #content .treatment-reasons .reason-header p {
+    color: #006346;
+    font-size: 32px;
+    text-align: center; }
+    #content .treatment-reasons .reason-header p span:nth-child(2),
+    #content .treatment-reasons .reason-header p span:nth-child(8),
+    #content .treatment-reasons .reason-header p span:nth-child(4) {
+      font-size: 18px; }
+    #content .treatment-reasons .reason-header p span:nth-child(1),
+    #content .treatment-reasons .reason-header p span:nth-child(3) {
+      font-size: 22px; }
+    #content .treatment-reasons .reason-header p span:nth-child(7) {
+      font-size: 42px; }
+  #content .treatment-reasons .reason-item-content .reason-item-number {
+    width: 100px;
+    margin: 24px; }
+  #content .treatment-reasons .reason-item-image .reason-item-skew {
+    display: none; }
+  #content .treatment-reasons .reason-item-container .reason-item-content {
+    width: 100%; }
+  #content .treatment-reasons .reason-item-container .reason-item-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover; }
+  #content .treatment-reasons .reason-item-container {
+    flex-direction: column;
+    margin: 12px; }
+    #content .treatment-reasons .reason-item-container.right {
+      flex-direction: column-reverse; }
+  #content .treatment-reasons .reason-item-content.left {
+    margin-left: 12px; }
+  #content .treatment-reasons .reason-item-content.right {
+    margin-right: 12px; }
+
+  #content .malocclusion-types {
+    padding: 24px; }
+    #content .malocclusion-types .malocclusion-list {
+      margin: 0; }
+    #content .malocclusion-types .malocclusion-item {
+      width: 200px;
+      height: 200px;
+      padding: 18px;
+      margin: 6px 12px; }
+      #content .malocclusion-types .malocclusion-item img {
+        width: 100px; }
+      #content .malocclusion-types .malocclusion-item p.malocclusion-title {
+        font-size: 18px; }
+      #content .malocclusion-types .malocclusion-item.image p.malocclusion-title {
+        margin-top: 24px; }
+      #content .malocclusion-types .malocclusion-item p.malocclusion-description {
+        font-size: 14px;
+        margin-top: 10px; }
+    #content .malocclusion-types .malocclusion-header p {
+      font-size: 16px; }
+    #content .malocclusion-types p:first-child span {
+      font-size: 18px; }
+    #content .malocclusion-types .malocclusion-label {
+      font-size: 16px; }
+
+  #content .treatment-cases {
+    padding: 12px; }
+    #content .treatment-cases .case-header {
+      font-size: 18px;
+      padding-top: 10px; }
+      #content .treatment-cases .case-header span {
+        font-size: 16px; }
+    #content .treatment-cases .case-item .case-number {
+      margin-top: 42px; }
+      #content .treatment-cases .case-item .case-number span {
+        font-size: 18px; }
+    #content .treatment-cases .case-item .case-details {
+      flex-direction: column;
+      align-items: center; }
+      #content .treatment-cases .case-item .case-details .case-info-table {
+        margin-top: 120px; }
+      #content .treatment-cases .case-item .case-details .case-images,
+      #content .treatment-cases .case-item .case-details .case-info {
+        width: 90%;
+        margin: 24px; }
+    #content .treatment-cases .case-item .case-title {
+      font-size: 16px; }
+    #content .treatment-cases .case-item .case-details {
+      font-size: 16px; }
+      #content .treatment-cases .case-item .case-details .case-image-types span {
+        font-size: 14px;
+        padding: 8px 48px; }
+
+  #content .treatment-flow {
+    margin: 16px; }
+    #content .treatment-flow .flow-item {
+      max-width: 100%;
+      min-height: 240px;
+      margin: 48px 24px; }
+      #content .treatment-flow .flow-item img {
+        width: 160px;
+        position: absolute;
+        top: -35%;
+        transform: translateY(15%); }
+      #content .treatment-flow .flow-item.left-item img {
+        left: 2%; }
+      #content .treatment-flow .flow-item.right-item img {
+        right: 2%; }
+      #content .treatment-flow .flow-item .contact-options {
+        flex-direction: column; }
+      #content .treatment-flow .flow-item .contact-options .header-button {
+        margin-top: 12px;
+        align-self: center; }
+    #content .treatment-flow .flow-detail {
+      margin: 32px 16px;
+      align-items: center; }
+    #content .treatment-flow .flow-item .flow-name {
+      font-size: 18px; }
+    #content .treatment-flow .flow-item .treatment-note,
+    #content .treatment-flow .flow-item .flow-description {
+      font-size: 12px; }
+
+  #content .treatment-commit {
+    margin: 32px 0; }
+    #content .treatment-commit .commit-image {
+      margin-right: 8px; }
+    #content .treatment-commit .commit-content {
+      margin-left: 0;
+      font-size: 12px; }
+    #content .treatment-commit .commit-text {
+      margin-top: 12px;
+      padding: 0; }
+
+  #content .booking-form .form-wrapper {
+    width: 100%; }
+
+  #content .booking-form {
+    padding: 32px 24px;
+    font-size: 14px; }
+
+  #content .booking-form .form-header {
+    font-size: 18px;
+    margin-bottom: 24px; }
+
+  #content .booking-form .input-container.col-2 {
+    width: 100%; }
+
+  #content .booking-form .booking-note {
+    font-size: 14px;
+    width: 100%;
+    padding: 16px;
+    margin: 24px; }
+
+  #content .booking-form .send-button .send-button-text p {
+    font-size: 18px; }
+
+  #content .booking-form .send-button .send-button-text span {
+    font-size: 14px; }
+
+  #footer .footer-top {
+    margin: 24px;
+    flex-direction: column; }
+  #footer .footer-top > img,
+  #footer .footer-top .footer-info {
+    width: 100%; }
+  #footer .footer-top .footer-info {
+    padding: 24px; }
+  #footer .footer-map {
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 48px 0; }
+  #footer .footer-copyright {
+    padding: 18px 0; }
+  #footer .footer-float {
+    height: 140px; } }
+
+/*# sourceMappingURL=reponesive.css.map */

@@ -1,0 +1,69 @@
+#content .consultation-section {
+  padding: 64px 120px; }
+  #content .consultation-section .consultation-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    #content .consultation-section .consultation-header-top {
+      color: #006346;
+      font-size: 32px;
+      text-align: center;
+      position: relative;
+      margin: 100px 12px 32px 12px;
+      font-family: "Noto Serif JP", serif; }
+      #content .consultation-section .consultation-header-top span {
+        font-size: 20px; }
+      #content .consultation-section .consultation-header-top img {
+        position: absolute;
+        top: -75%;
+        right: -30%;
+        width: 238px;
+        transform: rotateZ(5deg); }
+  #content .consultation-section .consultation-content {
+    max-width: 596px; }
+    #content .consultation-section .consultation-content p {
+      color: #444444;
+      font-size: 16px;
+      text-align: center;
+      font-family: "Noto Sans JP", sans-serif; }
+  #content .consultation-section .booking-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch; }
+  #content .consultation-section .header-button {
+    margin: 24px; }
+  #content .consultation-section .booking-card {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px; }
+    #content .consultation-section .booking-card-title {
+      color: #006346;
+      font-size: 24px;
+      font-family: "Noto Serif JP", serif; }
+  #content .consultation-section .question-title {
+    margin: 24px 0;
+    color: #006346;
+    font-size: 32px;
+    font-family: "Noto Serif JP", serif; }
+  #content .consultation-section .clinic-hours {
+    font-family: "Noto Sans JP", sans-serif; }
+    #content .consultation-section .clinic-hours p {
+      font-size: 16px;
+      color: #444444; }
+      #content .consultation-section .clinic-hours p > span {
+        font-size: 12px;
+        color: #69A596;
+        background-color: white;
+        padding: 4px 8px;
+        margin: 0 4px; }
+  #content .consultation-section img.question-image {
+    width: 100%; }
+  #content .consultation-section img.logo {
+    width: 50%; }
+
+/*# sourceMappingURL=consultation.css.map */

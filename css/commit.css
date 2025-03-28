@@ -1,0 +1,32 @@
+#content .treatment-commit {
+  display: flex;
+  flex-direction: row;
+  margin: 64px 0; }
+  #content .treatment-commit .commit-image {
+    margin-right: 24px;
+    flex: 1;
+    background-image: url("../img/img-message.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #content .treatment-commit .commit-content {
+    margin-left: 24px;
+    flex: 1; }
+    #content .treatment-commit .commit-content img {
+      width: 75%; }
+  #content .treatment-commit .commit-text {
+    margin-top: 12px;
+    padding: 24px 120px 0 0;
+    color: #444444; }
+  #content .treatment-commit .commit-role,
+  #content .treatment-commit .commit-name {
+    margin-top: 24px;
+    text-align: end;
+    color: #328a7b; }
+  #content .treatment-commit .commit-name {
+    margin-top: 18px; }
+    #content .treatment-commit .commit-name > span {
+      font-size: 14px;
+      display: inline-block;
+      margin-right: 8px; }
+
+/*# sourceMappingURL=commit.css.map */

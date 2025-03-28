@@ -1,0 +1,111 @@
+#content .treatment-options {
+  width: 100%;
+  background-color: #9FC5C6;
+  padding: 64px 120px; }
+  #content .treatment-options .options-card {
+    background-color: white;
+    padding: 64px; }
+    #content .treatment-options .options-card > .option-title {
+      font-size: 32px;
+      color: #444444;
+      font-family: "Noto Serif JP", serif; }
+    #content .treatment-options .options-card p {
+      text-align: center;
+      font-family: "Noto Serif JP", serif; }
+    #content .treatment-options .options-card .option-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+  #content .treatment-options .option-item {
+    position: relative;
+    margin: 48px 64px;
+    padding: 24px;
+    color: #555555; }
+    #content .treatment-options .option-item img {
+      position: absolute;
+      top: -15%; }
+    #content .treatment-options .option-item:first-child img {
+      width: 178px;
+      left: -15%; }
+    #content .treatment-options .option-item:last-child img {
+      width: 120px;
+      right: -15%; }
+    #content .treatment-options .option-item .option-title {
+      font-size: 28px;
+      color: white;
+      margin-top: 64px;
+      margin-bottom: 8px; }
+    #content .treatment-options .option-item .option-desc {
+      font-size: 18px;
+      line-height: 18px;
+      margin: 8px 0;
+      color: white;
+      font-family: "Noto Sans JP", sans-serif; }
+    #content .treatment-options .option-item:last-child .option-desc {
+      opacity: 0; }
+    #content .treatment-options .option-item .option-price p {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center; }
+    #content .treatment-options .option-item .option-price span:first-child {
+      display: inline-block;
+      font-size: 16px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      background-color: #FDFEC0; }
+    #content .treatment-options .option-item .option-price span:nth-child(2) {
+      color: #FDFEC0;
+      font-size: 48px;
+      font-family: "Crimson Pro", sans-serif; }
+    #content .treatment-options .option-item .option-price span:last-child {
+      color: #FDFEC0;
+      font-size: 20px; }
+    #content .treatment-options .option-item hr {
+      border: 1px solid white;
+      border-color: white;
+      margin: 12px 24px; }
+    #content .treatment-options .option-item .option-total {
+      font-size: 16px; }
+      #content .treatment-options .option-item .option-total span {
+        color: #555555;
+        font-size: 28px;
+        font-family: "Crimson Pro", sans-serif; }
+    #content .treatment-options .option-item .option-installment {
+      font-size: 12px; }
+  #content .treatment-options .option-list .option-item:first-child {
+    background: linear-gradient(to bottom right, #ACD9D5, #93D1DE); }
+  #content .treatment-options .option-list .option-item:last-child {
+    background: linear-gradient(to top right, #C7BEDC, #93D1DE); }
+  #content .treatment-options .additional-costs {
+    font-size: 16px;
+    color: #444444;
+    font-family: "Noto Sans JP", sans-serif; }
+  #content .treatment-options .additional-cost-list {
+    font-size: 16px;
+    text-align: center; }
+    #content .treatment-options .additional-cost-list span {
+      display: inline-block;
+      margin: 4px 8px;
+      color: #555555;
+      font-family: "Noto Sans JP", sans-serif; }
+    #content .treatment-options .additional-cost-list i {
+      padding: 6px;
+      color: #EFEFEF; }
+  #content .treatment-options .separator-line {
+    border: 1px solid #ACD9D5;
+    border-color: #ACD9D5;
+    margin: 24px auto;
+    width: 50px; }
+  #content .treatment-options .partial-treatment-title {
+    color: #69A596;
+    margin-bottom: 24px; }
+    #content .treatment-options .partial-treatment-title span:first-child {
+      font-size: 28px; }
+    #content .treatment-options .partial-treatment-title span:last-child {
+      font-size: 21px; }
+  #content .treatment-options .partial-treatment-desc {
+    color: #444444;
+    font-size: 16px; }
+
+/*# sourceMappingURL=options.css.map */

@@ -1,0 +1,131 @@
+#content .treatment-cases {
+  background-color: #deeaea;
+  padding: 0 120px 32px 120px; }
+  #content .treatment-cases .case-header {
+    color: #328a7b;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 64px;
+    font-family: "Shippori Mincho", serif; }
+    #content .treatment-cases .case-header span {
+      font-size: 24px; }
+  #content .treatment-cases .case-list {
+    display: flex;
+    flex-direction: column; }
+  #content .treatment-cases .case-number {
+    text-align: center;
+    margin-top: 72px; }
+    #content .treatment-cases .case-number span {
+      display: inline-flex;
+      padding: 4px 48px;
+      font-size: 24px;
+      color: white;
+      background: url("../img/bgr-case.png") no-repeat;
+      background-size: contain;
+      font-family: "Crimson Pro", serif; }
+      #content .treatment-cases .case-number span:first-child {
+        font-family: "WindSong", cursive; }
+      #content .treatment-cases .case-number span:last-child {
+        font-family: "Crimson Pro", serif; }
+  #content .treatment-cases .case-grid-bg {
+    background-image: url("../img/bgr-grid-2.png"); }
+  #content .treatment-cases .case-title {
+    text-align: center;
+    margin: 8px;
+    color: #c3bc9a;
+    font-size: 24px;
+    font-family: "Noto San serif", serif; }
+  #content .treatment-cases .case-details {
+    display: flex;
+    flex-direction: row; }
+    #content .treatment-cases .case-details .case-info {
+      width: 50%;
+      margin: 32px 120px;
+      margin-left: 8px; }
+    #content .treatment-cases .case-details .case-images {
+      margin-right: 8px;
+      width: 48%; }
+    #content .treatment-cases .case-details .case-image-types {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      #content .treatment-cases .case-details .case-image-types > span {
+        background-color: white;
+        font-size: 16px;
+        display: inline-block;
+        padding: 8px 72px;
+        margin: 4px;
+        border-radius: 4px;
+        color: #878787;
+        font-family: "Noto Serif JP", serif; }
+      #content .treatment-cases .case-details .case-image-types .active {
+        background-color: #8cbaba;
+        color: white; }
+  #content .treatment-cases .case-image-comparison {
+    position: relative;
+    margin-top: 24px;
+    color: #328a7b; }
+    #content .treatment-cases .case-image-comparison img {
+      border-radius: 12px; }
+    #content .treatment-cases .case-image-comparison p {
+      padding: 0 8px; }
+    #content .treatment-cases .case-image-comparison i {
+      display: inline-block;
+      margin: 4px; }
+    #content .treatment-cases .case-image-comparison .case-image-before, #content .treatment-cases .case-image-comparison .case-image-after {
+      display: inline-block; }
+    #content .treatment-cases .case-image-comparison .case-image-after {
+      position: absolute;
+      top: 50%;
+      right: 0; }
+    #content .treatment-cases .case-image-comparison .case-image-before > p {
+      text-align: start; }
+    #content .treatment-cases .case-image-comparison .case-image-after > p {
+      text-align: end; }
+    #content .treatment-cases .case-image-comparison .case-image-before i {
+      transform: rotateZ(-90deg); }
+    #content .treatment-cases .case-image-comparison .case-image-after i {
+      transform: rotateZ(90deg); }
+  #content .treatment-cases .case-info-table {
+    min-height: 550px;
+    background-color: white;
+    padding: 32px; }
+    #content .treatment-cases .case-info-table > p {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #8cbaba;
+      padding: 8px 0;
+      margin: 12px 0; }
+    #content .treatment-cases .case-info-table .case-info-label {
+      color: #8cbaba;
+      font-size: 18px;
+      font-family: "Noto Serif JP", serif; }
+    #content .treatment-cases .case-info-table span {
+      font-size: 16px;
+      color: #444444;
+      font-family: "Noto Sans JP", sans-serif; }
+    #content .treatment-cases .case-info-table i {
+      margin: 4px; }
+  #content .treatment-cases .case-tab-header p {
+    display: inline-block;
+    cursor: pointer;
+    padding: 4px 16px; }
+    #content .treatment-cases .case-tab-header p.active {
+      background-color: #acc5c5;
+      color: white;
+      font-family: "Noto Serif JP", serif; }
+  #content .treatment-cases .case-tab-content {
+    position: relative;
+    border: 1px solid #8cbaba;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #444444;
+    font-size: 14px; }
+  #content .treatment-cases .case-tab-panel {
+    display: none; }
+    #content .treatment-cases .case-tab-panel.active {
+      display: block; }
+    #content .treatment-cases .case-tab-panel p {
+      text-align: start;
+      padding: 16px; }
+
+/*# sourceMappingURL=cases.css.map */

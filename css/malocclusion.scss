@@ -1,0 +1,86 @@
+#content {
+    .malocclusion-types {
+      padding: 100px;
+      background-color: #9fc5c6;
+      background-image: url("../img/bgr-grid-2.png");
+  
+      .malocclusion-header {
+        p {
+          color: white;
+          font-size: 18px;
+          text-align: center;
+          margin: 8px;
+          font-family: "Noto Serif JP", serif;
+  
+          &:first-child {
+            span {
+              font-size: 24px;
+            }
+          }
+        }
+  
+        .malocclusion-label {
+          background-color: #69a596;
+          padding: 4px 32px;
+          border-radius: 32px;
+          font-size: 18px;
+          color: white;
+          font-family: "Rounded Mplus 1c", sans-serif;
+        }
+      }
+  
+      .malocclusion-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin: 32px 0;
+      }
+  
+      .malocclusion-item {
+        width: 232px;
+        height: 232px;
+        background-color: #efefef;
+        border-radius: 128px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 28px;
+        margin: 12px 20px;
+  
+        img {
+          width: 126px;
+        }
+  
+        p {
+          text-align: center;
+        }
+  
+        &.image {
+          p.malocclusion-title {
+            margin-top: 32px;
+          }
+        }
+      }
+  
+      p {
+        &.malocclusion-title {
+          color: #328a7b;
+          font-size: 24px;
+          font-family: "Rounded Mplus 1c", sans-serif;
+        }
+  
+        &.malocclusion-pronunciation {
+          color: #328a7b;
+          font-size: 12px;
+        }
+  
+        &.malocclusion-description {
+          color: #444444;
+          font-size: 15px;
+          margin-top: 12px;
+          font-family: "Rounded Mplus 1c", sans-serif;
+        }
+      }
+    }
+  }

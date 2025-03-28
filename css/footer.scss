@@ -1,0 +1,123 @@
+#footer {
+    position: relative;
+  
+    .footer-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 32px 120px;
+  
+      > img {
+        margin-right: 32px;
+        border-radius: 4px;
+        width: 49%;
+      }
+  
+      .footer-info {
+        padding: 32px;
+        width: 49%;
+  
+        > img {
+          width: 336px;
+          min-width: 336px;
+          margin-bottom: 12px;
+        }
+  
+        .footer-info-item {
+          display: flex;
+          flex-direction: row;
+          margin: 8px 0;
+  
+          i,
+          > p span:first-child {
+            color: #386d3d;
+          }
+  
+          > i {
+            display: inline-block;
+            padding: 0 8px;
+            font-size: 24px;
+          }
+  
+          span {
+            display: block;
+          }
+  
+          .footer-phone-num {
+            font-size: 18px;
+          }
+        }
+  
+        .footer-clinic-hp-button {
+          width: 336px;
+          height: 56px;
+          text-align: center;
+          border: none;
+          background-color: #a8c56d;
+          font-weight: lighter;
+          font-size: 18px;
+          color: white;
+          margin: 12px 0;
+        }
+  
+        .footer-payment-info {
+          width: 336px;
+          color: #69a596;
+          display: inline-flex;
+          flex-direction: row;
+          align-items: center;
+          border: 1px #69a596 solid;
+  
+          .footer-payment-text {
+            width: 100%;
+          }
+  
+          p {
+            text-align: center;
+  
+            &:last-child {
+              background-color: #69a596;
+              color: white;
+  
+              i {
+                font-size: 12px;
+                padding: 0 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .footer-map {
+      margin: 64px 120px 0;
+      background-color: #d9d9d9;
+      padding: 64px 0;
+      text-align: center;
+      font-size: 24px;
+      color: white;
+    }
+  
+    .footer-copyright {
+      text-align: center;
+      color: white;
+      padding: 32px 0;
+  
+      > i {
+        padding: 4px;
+        font-size: 24px;
+      }
+    }
+  
+    .footer-float {
+      position: absolute;
+      height: 200px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #9fc5c6;
+      background-image: url("../img/bgr-grid-2.png");
+      z-index: -1;
+    }
+  }
+  
